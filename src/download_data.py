@@ -11,3 +11,5 @@ bucket = s3.Bucket(os.environ.get("AWS_S3_BUCKET_NAME", ""))
 
 bucket.download_file(os.environ.get("AWS_S3_FILE_PATH", ""), os.environ.get("LOCAL_FILE_PATH", ""))
 
+while(True):
+    print("Running")
