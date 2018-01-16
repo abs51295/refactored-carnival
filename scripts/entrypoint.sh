@@ -16,7 +16,7 @@ ls -a
 
 cd ..
 echo "Parent again"
-
+ls -a
 
 export PYTHONPATH=`pwd`
 
